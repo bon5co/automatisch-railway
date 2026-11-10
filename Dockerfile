@@ -7,7 +7,7 @@
 FROM automatischio/automatisch:0.15.0@sha256:3bace7a12d5fb3f5b1305a6a52232270e0e0abd8465a8b78baacb07f6ea89594
 
 ENV APP_ENV=production \
-    POSTGRES_DATABASE=automatisch \
+    POSTGRES_DATABASE=postgres \
     POSTGRES_USERNAME=postgres \
     TELEMETRY_ENABLED=false \
     ADMIN_EMAIL=admin@example.com
